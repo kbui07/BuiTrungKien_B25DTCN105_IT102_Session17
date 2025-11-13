@@ -18,17 +18,18 @@ int main() {
         for (int i = 0; i < strlen(str); i++) {
             str[i] = toupper(str[i]);
         }
-        printf("Chuoi sau khi chuyen thanh chu hoa: %s", str);
+        printf("%s",str);
     } 
     else if (choice == 2) {
         for (int i = 0; i < strlen(str); i++) {
             str[i] = tolower(str[i]);
         }
-        printf("Chuoi sau khi chuyen thanh chu thuong: %s", str);
+        printf("%s",str);
     } 
     else {
         printf("Lua chon khong hop le!");
     }
     return 0;
 }
+
 
